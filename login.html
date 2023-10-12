@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Login</h1>
+  <form id="login-form" action="login.php" method="post">
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+      <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div> <!-- "YOUR_RECAPTCHA_SITE_KEY" SUBSTITUA PELO SEU-->
+    </div>
+    <div class="form-group">
+      <button id="login-button" type="submit" disabled>Entrar</button>
+    </div>
+  </form>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="script.js"></script>
+</body>
+</html>
