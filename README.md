@@ -20,7 +20,7 @@ Este é um projeto de exemplo que demonstra a criação de uma página de login 
 1. Clone este repositório:
 
    ```sh
-   git clone https://github.com/seu-usuario/pagina-de-login-recaptcha.git
+   git clone https://github.com/weiner-rezcue98/desenvolvimento-web-login.git
 Personalize o arquivo login.html com sua YOUR_RECAPTCHA_SITE_KEY.
 
 Configure um servidor web e um banco de dados para lidar com a lógica de login e o armazenamento de informações.
